@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav >
+        <a href="#About me">About Me </a><br>
+        <a href="#Hobbies"> Hobbies</a><br>
+        <a href="#contact me">Contact</a>
+        </nav>
+    </header><hr>
+    <!-- About me Section-->
+    <section id="About me">
+        <h2>About me</h2>
+        <img src="image.jpg" alt="My Image" height="300">
+        <p>Hello my name is <span><b>Satinder Singh</b> </span>. I am learning <u>Html</u>. This is my first project on the basis of <u>Html Basics</u> and i am excited to learn more.   </p>
+    </section>
+    <!-- My Hobbies Section -->
+     <section id="Hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Sports <ol type="a">
+                <li>Volleyball</li>
+                <li>Cricket</li>
+                <li>Badminton</li>
+                <li>Gyn</li>
+            </ol></li>
+            <li>Coding <ol type="a"> 
+                <li>Java</li>
+                <li>Sql</li>
+                <li>Html</li>
+            </ol></li>
+            <li>Traveling</li>
+        </ul>
+     </section><br>
+     <!-- Table of Skills-->
+      <table border="1">
+        <caption>Skills Level</caption>
+        <tr><th>Skils</th>
+        <th>Level</th></tr>
+        <tr>
+            <td>Java</td>
+            <td>4/5</td>
+        </tr>
+        <tr><td>sql</td>
+        <td>4/5</td></tr>
+        <tr>
+            <td>Html</td>
+            <td>4/5</td>
+        </tr>
+      </table><br>
+
+      <label for="video">Youtube Link for Bigenners </label>
+    <iframe width="560" height="315" id="video" src="https://www.youtube.com/embed/bJzb-RuUcMU?si=zw_ZKQKng41WdDuu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <!-- contact me-->
+     <section id="contact me">
+        <h2>Contact </h2>
+        <form >
+            <label for="name"> Enter your name:</label>
+            <input type="text" name="name" value="name" required><br>
+            <label for="email">Enter your email:</label>
+            <input type="email" name="email" value="email"><br>
+            <label for="gender">Gender:</label>
+        Male<input type="radio" name="gender" value="male">
+        Female<input type="radio" name="gender" value="female"><br>
+        <label for="skill">Select your Skill: </label>
+        Java<input type="checkbox" name="skill" id="skill" value="Java">
+        Sql<input type="checkbox" name="skill" id="skill" value="Sql">
+        Html<input type="checkbox" name="skill" id="skill" value="Html">
+        Jdbc<input type="checkbox" name="skill" id="skill" value="Jdbc"><br>
+    <label for="range">rate your skills from 1 to 10 </label>
+    <input type="range" min="1" max="10">
+        </form>
+     </section>
+    <hr>
+    <footer>copyrights </footer>
+    <p>&copy; 2025 My Portfolio | Made with &hearts; while learning HTML</p>
+      
+
+    
+</body>
+</html>
